@@ -33,7 +33,7 @@ Times and dates will be confirmed once the workshop is officially scheduled.  It
 
 #### Machine Learning/Computer Vision Block (1:00pm-2:20pm)
 <details>
-  <summary> **1:00pm-1:40pm:** <i>Fusion for Robot Perception and Controls</i>,  Michelle Lee (Stanford University) </summary>  
+  <summary> <b>1:00pm-1:40pm:</b> <i>Fusion for Robot Perception and Controls</i>,  Michelle Lee (Stanford University) </summary>  
 <br>
   
  **Abstract:**  Machine learning has led to powerful advances in robotics: deep learning for visual perception from raw images and deep reinforcement learning (RL) for learning controls from trial and error. Yet, these black-box techniques can often require large amounts of data, have results difficult to interpret, and fail catastrophically when dealing with out-of-distribution data. In this talk, I will introduce the concept of ``fusion'' in robot perception and controls for robust, sample efficient, and generalizable robot learning. On the perception side, we fuse multiple sensor modalities and demonstrate generalization to new task instances and robustness to sensor failures that are out-of-distribution. On the controls side, we leverage fusion by combining known models with learned policies, making our policy learning substantially more sample efficient.
