@@ -3,8 +3,8 @@ layout: default
 title: main
 ---
 #### Organizers 
-Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Penn)
-*Contact:* [nmatni@seas.upenn.edu](mailto:nmatni@seas.upenn.edu)
+Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Penn)\
+**Contact:** [nmatni@seas.upenn.edu](mailto:nmatni@seas.upenn.edu)
 
 #### Relevant Links
 - [IEEE CDC 2021 Workshops](https://2021.ieeecdc.org/workshops/)
@@ -20,25 +20,78 @@ The objective of this workshop is to begin fostering a new interdisciplinary com
 
 The workshop aims to initiate new lines of research that seek to integrate concepts from ML, computer vision, and control in novel ways so as to ensure that deep learning enabled control systems enjoy the same safety, stability, and robustness guarantees that have been the hallmarks of our community.  As such, the workshop is aimed a broad audience, but graduate students, postdocs, and junior professors are especially encouraged to participate in order to get initiated to this timely and exciting research area.  All talks will be broadly accessible to anyone with a basic familiarity with control theory, optimization, and machine/deep learning.
 
+## Diversity Statement
+The speakers participating in this workshop are diverse in terms of: (i) underrepresented groups in STEM, (ii) representation of different scientific communities (controls, machine learning, computer vision, robotics), (iii) academia and industry, and (iv) seniority levels (speakers range from PhD students to postdocs to assistant professors to full professors).  Our hope is that this diversity in our speakers will translate into a corresponding diversity in our audience.
+
 ## Tentative Program
 
 Times and dates will be confirmed once the workshop is officially scheduled.  It will take place on Sat. Dec 11 or Sun. Dec 12, and will roughly follow the following schedule.  All times are in Central Daylight Time (GMT-5).
 
-* 12:50pm-1:00pm: **Opening Remarks** by Nikolai Matni
+**Please click on a talk title to see the abstract and speaker biography***
+
+#### Opening Remarks (12:50pm-1:00pm)
 
 #### Machine Learning/Computer Vision Block (1:00pm-2:20pm)
-* 1:00pm-1:40pm: **Fusion for Robot Perception and Controls**,  Michelle Lee (Stanford University) 
-* 1:40pm-2:20pm: **GIRL: A Generative Model of Image Representations and Learned Lie Invariants**, Christine Allen-Blanchette (Princeton University) 
+<details>
+  <summary> <b>1:00pm-1:40pm:</b> <i>Fusion for Robot Perception and Controls</i>,  Michelle Lee (Stanford University) </summary>  
+<br>
+  
+ **Abstract:**  Machine learning has led to powerful advances in robotics: deep learning for visual perception from raw images and deep reinforcement learning (RL) for learning controls from trial and error. Yet, these black-box techniques can often require large amounts of data, have results difficult to interpret, and fail catastrophically when dealing with out-of-distribution data. In this talk, I will introduce the concept of ``fusion'' in robot perception and controls for robust, sample efficient, and generalizable robot learning. On the perception side, we fuse multiple sensor modalities and demonstrate generalization to new task instances and robustness to sensor failures that are out-of-distribution. On the controls side, we leverage fusion by combining known models with learned policies, making our policy learning substantially more sample efficient.
+  
+  **Biography:** Michelle A. Lee is a final year Ph.D. candidate in the Mechanical Engineering Department of Stanford University. She works in the Interactive Perception and Robot Learning lab advised by Prof. Jeannette Bohg and is a collaborator in the People, AI, Robots group, led by Fei-Fei Li and Silvio Savarese. Working in the intersection of perception, controls, and robot learning, her research interests lie in developing data-driven algorithms for real-world robotic manipulation tasks. She is currently working on how fusion of policies and multimodal state inputs can enable algorithmic generalization, robustness, and efficiency. Previously, she has conducted research at the NVIDIA Robotics Lab. Her work has received best paper awards at ICRA 2019 and the NeuriPS 2019 Robot Learning workshop.
+</details>
+  
+<details>
+  <summary> <b>1:40pm-2:20pm:</b> <i>GIRL: A Generative Model of Image Representations and Learned Lie Invariants</i>, Christine Allen-Blanchette (Princeton University) </summary>
+  <br>
+  
+  **Abstract:** The dynamics underlying an image sequence typically evolve on a low-dimensional manifold. While auto-encoding models can often capture the local structure of the configuration space, the Euclidean embedding space may lack sufficient structure to adequately constrain the dynamics. In this paper, we introduce linear and nonlinear probabilistic approaches for estimating the underlying configuration space and transition dynamics of an image sequence. The transition dynamics are constrained to have Lie group structure which enforces smoothness, invertibility, and composability of transformations in the latent space -- all important features in the context of image sequences -- and optimization is performed in an iterative alternating minimization framework. At inference, the learned representations may be used to not only interpolate between and extrapolate from a given image pair, but also to generate novel images and image sequences from latent distribution samples.
+  
+  **Biography:** Dr. Christine Allen-Blanchette is a postdoctoral researcher in the Department of Mechanical and Aerospace Engineering at Princeton University where she is pursuing research at the intersection of deep learning, geometry, and dynamical systems. She completed her PhD in Computer Science and MSE in Robotics at the University of Pennsylvania, and her BS degrees in Mechanical Engineering and Computer Engineering at San Jose State University. Among her awards are the Princeton Presidential Postdoctoral Fellowship, NSF Integrative Graduate Education and Research Training award, and GEM Fellowship sponsored by the Adobe Foundation.
+</details>
 
 #### Coffee Break (2:20pm-2:35pm)
 
 #### Control Block (2:35pm-3:55pm)
-* 2:35pm-3:15pm: **Model Based Robust Deep Learning**, George Pappas (University of Pennsylvania)
-* 3:15pm-3:55pm: **On the Sample-Complexity of Stability Constrained Imitation Learning**, Nikolai Matni (University of Pennsylvania)
+<details>
+  <summary> <b>2:35pm-3:15pm:</b> <i>Model Based Robust Deep Learning</i>, George Pappas (University of Pennsylvania) </summary>
+  <br>
+  
+  **Abstract:** While deep learning has resulted in major breakthroughs in many application domains, the frameworks commonly used in deep learning remain fragile to artificially-crafted and imperceptible changes in the data. In response to this fragility, adversarial training has emerged as a principled approach for enhancing the robustness of deep learning with respect to norm-bounded perturbations. However, there are other sources of fragility for deep learning that are arguably more common and less thoroughly studied. Indeed, natural variation such as lighting or weather conditions can significantly degrade the accuracy of trained neural networks, proving that such natural variation presents a significant challenge for deep learning.
+We propose a paradigm shift from perturbation-based adversarial robustness toward model-based robust deep learning. Our objective is to provide general training algorithms that can be used to train deep neural networks to be robust against natural variation in data. Critical to our paradigm is first obtaining a model of natural variation which can be used to vary data over a range of natural conditions. Such models may be either known a priori or else learned from data. In the latter case, we show that deep generative models can be used to learn models of natural variation that are consistent with realistic conditions. We then exploit such models in three novel model-based robust training algorithms in order to enhance the robustness of deep learning with respect to the given model. Our extensive experiments show that across a variety of naturally-occurring conditions and across various datasets, deep neural networks trained with our model-based algorithms significantly outperform both standard deep learning algorithms as well as norm-bounded robust deep learning algorithms.
+  
+  **Biography:** George J. Pappas is the UPS Foundation Professor and Chair of the Department of Electrical and Systems Engineering at the University of Pennsylvania. He also holds a secondary appointment in the Departments of Computer and Information Sciences, and Mechanical Engineering and Applied Mechanics. He is member of the GRASP Lab and the PRECISE Center. He has previously served as the Deputy Dean for Research in the School of Engineering and Applied Science. His research focuses on control theory and in particular, hybrid systems, embedded systems, hierarchical and distributed control systems, with applications to unmanned aerial vehicles, distributed robotics, green buildings, and biomolecular networks. He is a Fellow of IEEE, and has received various awards such as the Antonio Ruberti Young Researcher Prize, the George S. Axelby Award, the O. Hugo Schuck Best Paper Award, the National Science Foundation PECASE, and the George H. Heilmeier Faculty Excellence Award.
+</details>
+  
+<details>
+  <summary> <b>3:15pm-3:55pm:</b> <i>On the Sample-Complexity of Stability Constrained Imitation Learning</i>, Nikolai Matni (University of Pennsylvania) </summary>
+  <br>
+  
+  **Abstract:** We study the following question in the context of imitation learning for continuous control: how are the underlying stability properties of an expert policy reflected in the sample-complexity of an imitation learning task? We provide the first results showing that a surprisingly granular connection can be made between the underlying expert system's incremental gain stability, a novel measure of robust convergence between pairs of system trajectories, and the dependency on the task horizon *T* of the resulting generalization bounds. In particular, we propose and analyze incremental gain stability constrained versions of behavior cloning and a DAgger-like algorithm, and show that the resulting sample-complexity bounds naturally reflect the underlying stability properties of the expert system. As a special case, we delineate a class of systems for which the number of trajectories needed to achieve *ε*-suboptimality is sublinear in the task horizon *T*, and do so without requiring (strong) convexity of the loss function in the policy parameters. Finally, we conduct numerical experiments demonstrating the validity of our insights on both a simple nonlinear system for which the underlying stability properties can be easily tuned, and on a high-dimensional quadrupedal robotic simulation.
+
+  **Biography:** Nikolai Matni is an Assistant Professor in the Department of Electrical and Systems Engineering at the University of Pennsylvania, where he is also a member of the Department of Computer and Information Sciences (by courtesy), the GRASP Lab, the PRECISE Center, and the Applied Mathematics and Computational Science graduate group. Prior to joining Penn, Nikolai was a postdoctoral scholar in EECS at UC Berkeley. He has also held a position as a postdoctoral scholar in the Computing and Mathematical Sciences at Caltech. He received his Ph.D. in Control and Dynamical Systems from Caltech in June 2016. He also holds B.A.Sc. and M.A.Sc. in Electrical Engineering from the University of British Columbia, Vancouver, Canada. His research interests broadly encompass the use of learning, optimization, and control in the design and analysis of safety-critical data-driven autonomous systems.  Nikolai is a recipient of the NSF CAREER Award (2021), a Google Research Scholar Award (2021), the IEEE ACC 2017 Best Student Paper Award (as co-advisor), and the IEEE CDC 2013 Best Student Paper Award (first ever sole author winner).
+</details>
 
 #### Coffee Break (3:55pm-4:10pm)
 
 #### Robotics Block (4:10pm-5:30pm)
-* 4:10pm-4:50pm: **A Vision for Trustworthy Robot Perception: Certifiable Algorithms and Self-Supervised Learning**, Luca Carlone (Massachussetts Institue of Technology) 
-* 4:50pm-5:30pm: **Accelerating Policy Optimization using Contractively Stable Imitation Learning**, Sumeet Singh (Google Robotics)
+<details>
+  <summary> <b>4:10pm-4:50pm:</b> <i>A Vision for Trustworthy Robot Perception: Certifiable Algorithms and Self-Supervised Learning</i>, Luca Carlone (Massachussetts Institue of Technology) </summary>
+  <br>
+  
+  **Abstract:** Perception algorithms are key components of modern autonomous systems, from self-driving vehicles to autonomous robots and drones. For instance, for a self-driving vehicle, perception algorithms provide functionalities such as estimating the state of the vehicle, building a map of obstacles in its surroundings, and detecting and tracking external objects and pedestrians. As exemplified by recent self-driving car accidents, perception failures can cascade to catastrophic system failures and compromise human safety. Ensuring robustness of perception is a formidable challenge, which spans several research areas from robotics and computer vision, to estimation and machine learning.
+In this talk, I provide an overview of our work on certifiable perception. I start by reviewing our certifiable algorithms for geometric perception, which aim at estimating a geometric model (e.g., the pose and shape of vehicles surrounding a self-driving car) from noisy and potentially corrupted measurements. Our certifiable algorithms provide formal performance guarantees in realistic problems, and largely outperform the state of the art in terms of accuracy and robustness to noise and outliers. I discuss three tools to design certifiable algorithms: graduated non-convexity, graph-theoretic outlier removal, and polynomial optimization. I show that these tools enable unprecedented performance in object pose and shape estimation using camera or lidar. Our algorithms are ``hard to break'' and succeed in challenging problems with extreme noise and outliers, where state-of-the-art methods fail.
+I conclude the talk by commenting on the use of robust algorithms for self-supervision of neural networks for feature detection and matching, and discuss ongoing work on system-level perception monitoring.
+  
+  **Biography:** Luca Carlone is the Leonardo Career Development Associate Professor in the Department of Aeronautics and Astronautics at the Massachusetts Institute of Technology, and a Principal Investigator in the Laboratory for Information and Decision Systems (LIDS). He received his PhD from the Polytechnic University of Turin in 2012. He joined LIDS as a postdoctoral associate (2015) and later as a Research Scientist (2016), after spending two years as a postdoctoral fellow at the Georgia Institute of Technology (2013-2015). His research interests include nonlinear estimation, numerical and distributed optimization, and probabilistic inference, applied to sensing, perception, and decision-making in single and multi-robot systems. His work includes seminal results on certifiably correct algorithms for localization and mapping, as well as approaches for visual-inertial navigation and distributed mapping. He is a recipient of the 2017 Transactions on Robotics King-Sun Fu Memorial Best Paper Award, the best paper award at WAFR'16, the best Student paper award at the 2018 Symposium on VLSI Circuits, the best paper award in Robot Vision at ICRA'20, and he was best paper finalist at RSS'15. He is also a recipient of the RSS Early Career Award (2020), the Google Daydream (2019) and the Amazon Research Award (2020), and the MIT AeroAstro Vickie Kerrebrock Faculty Award (2020). At MIT, he teaches "Robotics: Science and Systems," the introduction to robotics for MIT undergraduates, and he created the graduate-level course "Visual Navigation for Autonomous Vehicles," which covers mathematical foundations and fast C++ implementations of spatial perception algorithms for drones and autonomous vehicles.
+</details>
+
+<details>
+  <summary> <b>4:50pm-5:30pm:</b> <i>Accelerating Policy Optimization using Contractively Stable Imitation Learning</i>, Sumeet Singh (Google Robotics) </summary>
+  <br>
+  
+  **Abstract:** Policies learned via Behavior Cloning (BC) methods typically result in catastrophic divergence from the expert demonstrations. An oft-cited explanation is that BC tries to learn the state-conditional action distribution, thereby neglecting the mismatch in the resulting closed-loop state distributions. On the other hand, recent methods advocating for stable or stabilizable dynamics learning within model-based reinforcement learning frameworks assume overly restrictive control theoretic properties for the underlying system. In this work, we instead assume that state trajectories corresponding to expert demonstrations can be encoded as a contractively stable dynamical system. Informally, this implies that state perturbations (``mistakes'') are exponentially forgotten with respect to the flow of the dynamical system. Leveraging this as the key thesis, we first fit a dynamical system to the collected demonstrations, where we leverage the properties of a contractively stable system as soft constraints within the learning algorithm. Next, we perform policy optimization using an off-the-shelf method (e.g., PPO, ARS) with an augmented cost function that penalizes deviation from the flow of the learned stable dynamical system. We demonstrate two key benefits: (i) more focused exploration and therefore, quicker policy convergence, and (ii) an adjustable handle over the distribution shift of the policy and the variance in its performance.
+  
+  **Biography:** Sumeet Singh is a researcher at Google Brain Robotics in NYC.  He completed his Ph.D. Ph.D. in the Autonomous Systems Lab in the Aeronautics and Astronautics Department at Stanford in 2019. He received a B.Eng. in Mechanical Engineering and a Diploma of Music (Performance) from University of Melbourne in 2012, and a M.Sc. in Aeronautics and Astronautics from Stanford University in 2015. Prior to joining Stanford, Sumeet worked in the Berkeley Micromechanical Analysis and Design lab at the University of California, Berkeley in 2011 and the Aeromechanics Branch at NASA Ames in 2013. Sumeet's research interests include (1) Robust motion planning for constrained nonlinear systems, (2) Risk-sensitive inference and decision-making with humans in-the-loop, and (3) Design of verifiable learning architectures for safety-critical applications. Sumeet is the recipient of the Stanford Graduate Fellowship (2013-2016), the most prestigious Stanford fellowship awarded to incoming graduate students, and the Qualcomm Innovation Fellowship (2018).
+</details>
 
