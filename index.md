@@ -1,6 +1,5 @@
 ---
 layout: default
-title: main
 ---
 #### Organizers 
 Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Penn)\
