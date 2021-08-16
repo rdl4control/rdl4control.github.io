@@ -2,9 +2,11 @@
 layout: default
 title: main
 ---
-### Organizers: Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Penn)
+#### Organizers 
+Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Penn)
+*Contact:* nmatni@seas.upenn.edu
 
-### Relevant Links
+#### Relevant Links
 - [IEEE CDC 2021 Workshops](https://2021.ieeecdc.org/workshops/)
 - [IEEE CDC 2021 Registration](https://2021.ieeecdc.org/registration/)
 
