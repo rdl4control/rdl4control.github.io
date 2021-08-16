@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "IEEE CDC 2021 Half-Day Workshop: Robust Deep Learning-Based Control"
+
 ---
 
 ## Motivation and Objectives
