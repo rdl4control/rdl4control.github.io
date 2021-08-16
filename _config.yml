@@ -26,6 +26,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rdl4control.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: NikolaiMatni
 github_username:  rdl4control
+markdown: GFM
 
 # Build settings
 theme: jekyll-theme-slate
