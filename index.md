@@ -25,15 +25,20 @@ The workshop aims to initiate new lines of research that seek to integrate conce
 Times and dates will be confirmed once the workshop is officially scheduled.  It will take place on Sat. Dec 11 or Sun. Dec 12, and will roughly follow the following schedule.  All times are in Central Daylight Time (GMT-5).
 
 * 12:50pm-1:00pm: **Opening Remarks** by Nikolai Matni
-* 1:00pm-2:20pm: **Machine Learning/Computer Vision Block**
-    - 1:00pm-1:40pm: **Fusion for Robot Perception and Controls**,  Michelle Lee (Stanford University) 
-    - 1:40pm-2:20pm: **GIRL: A Generative Model of Image Representations and Learned Lie Invariants**, Christine Allen-Blanchette (Princeton University) 
-* 2:20pm-2:35pm: **Coffee Break**
-* 2:35pm-3:55pm: **Control Block**
-    - 2:35pm-3:15pm: **Model Based Robust Deep Learning**, George Pappas (University of Pennsylvania)
-    - 3:15pm-3:55pm: **On the Sample-Complexity of Stability Constrained Imitation Learning**, Nikolai Matni (University of Pennsylvania)
-* 3:55pm-4:10pm: **Coffee Break**
-* 4:10pm-5:30pm: **Robotics Block**
-    - 4:10pm-4:50pm: **A Vision for Trustworthy Robot Perception: Certifiable Algorithms and Self-Supervised Learning**, Luca Carlone (Massachussetts Institue of Technology) 
-    - 4:50pm-5:30pm: **Accelerating Policy Optimization using Contractively Stable Imitation Learning**, Sumeet Singh (Google Robotics)
+
+#### Machine Learning/Computer Vision Block (1:00pm-2:20pm)
+* 1:00pm-1:40pm: **Fusion for Robot Perception and Controls**,  Michelle Lee (Stanford University) 
+* 1:40pm-2:20pm: **GIRL: A Generative Model of Image Representations and Learned Lie Invariants**, Christine Allen-Blanchette (Princeton University) 
+
+#### Coffee Break (2:20pm-2:35pm)
+
+#### Control Block (2:35pm-3:55pm)
+* 2:35pm-3:15pm: **Model Based Robust Deep Learning**, George Pappas (University of Pennsylvania)
+* 3:15pm-3:55pm: **On the Sample-Complexity of Stability Constrained Imitation Learning**, Nikolai Matni (University of Pennsylvania)
+
+#### Coffee Break (3:55pm-4:10pm)
+
+#### Robotics Block (4:10pm-5:30pm)
+* 4:10pm-4:50pm: **A Vision for Trustworthy Robot Perception: Certifiable Algorithms and Self-Supervised Learning**, Luca Carlone (Massachussetts Institue of Technology) 
+* 4:50pm-5:30pm: **Accelerating Policy Optimization using Contractively Stable Imitation Learning**, Sumeet Singh (Google Robotics)
 
