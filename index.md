@@ -24,7 +24,7 @@ The speakers participating in this workshop are diverse in terms of: (i) underre
 
 ## Tentative Program
 
-Times and dates will be confirmed once the workshop is officially scheduled.  It will take place on Sat. Dec 11 or Sun. Dec 12, and will roughly follow the following schedule.  All times are in Central Daylight Time (GMT-5).
+Times and dates will be confirmed once the workshop is officially scheduled.  It will take place on Sun. Dec 12, and will roughly follow the following schedule (but may be updated as we approach the conference, so keep checking back!).  All times are in UTC (GMT).
 
 **Please click on a talk title to see the abstract and speaker biography**
 
