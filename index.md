@@ -28,11 +28,11 @@ Times and dates will be confirmed once the workshop is officially scheduled.  It
 
 **Please click on a talk title to see the abstract and speaker biography**
 
-#### Opening Remarks (12:50pm-1:00pm)
+#### Opening Remarks (1:00pm-1:10pm)
 
-#### Machine Learning/Computer Vision Block (1:00pm-2:20pm)
+#### Machine Learning/Computer Vision Block (1:10pm-2:20pm)
 <details>
-  <summary> <b>1:00pm-1:40pm:</b> <i>Fusion for Robot Perception and Controls</i>,  Michelle Lee (Stanford University) </summary>  
+  <summary> <b>1:10pm-1:45pm:</b> <i>Fusion for Robot Perception and Controls</i>,  Michelle Lee (Stanford University) </summary>  
 <br>
   
  **Abstract:**  Machine learning has led to powerful advances in robotics: deep learning for visual perception from raw images and deep reinforcement learning (RL) for learning controls from trial and error. Yet, these black-box techniques can often require large amounts of data, have results difficult to interpret, and fail catastrophically when dealing with out-of-distribution data. In this talk, I will introduce the concept of ``fusion'' in robot perception and controls for robust, sample efficient, and generalizable robot learning. On the perception side, we fuse multiple sensor modalities and demonstrate generalization to new task instances and robustness to sensor failures that are out-of-distribution. On the controls side, we leverage fusion by combining known models with learned policies, making our policy learning substantially more sample efficient.
@@ -41,7 +41,7 @@ Times and dates will be confirmed once the workshop is officially scheduled.  It
 </details>
   
 <details>
-  <summary> <b>1:40pm-2:20pm:</b> <i>GIRL: A Generative Model of Image Representations and Learned Lie Invariants</i>, Christine Allen-Blanchette (Princeton University) </summary>
+  <summary> <b>1:45pm-2:20pm:</b> <i>GIRL: A Generative Model of Image Representations and Learned Lie Invariants</i>, Christine Allen-Blanchette (Princeton University) </summary>
   <br>
   
   **Abstract:** The dynamics underlying an image sequence typically evolve on a low-dimensional manifold. While auto-encoding models can often capture the local structure of the configuration space, the Euclidean embedding space may lack sufficient structure to adequately constrain the dynamics. In this paper, we introduce linear and nonlinear probabilistic approaches for estimating the underlying configuration space and transition dynamics of an image sequence. The transition dynamics are constrained to have Lie group structure which enforces smoothness, invertibility, and composability of transformations in the latent space -- all important features in the context of image sequences -- and optimization is performed in an iterative alternating minimization framework. At inference, the learned representations may be used to not only interpolate between and extrapolate from a given image pair, but also to generate novel images and image sequences from latent distribution samples.
@@ -49,11 +49,11 @@ Times and dates will be confirmed once the workshop is officially scheduled.  It
   **Biography:** Dr. Christine Allen-Blanchette is a postdoctoral researcher in the Department of Mechanical and Aerospace Engineering at Princeton University where she is pursuing research at the intersection of deep learning, geometry, and dynamical systems. She completed her PhD in Computer Science and MSE in Robotics at the University of Pennsylvania, and her BS degrees in Mechanical Engineering and Computer Engineering at San Jose State University. Among her awards are the Princeton Presidential Postdoctoral Fellowship, NSF Integrative Graduate Education and Research Training award, and GEM Fellowship sponsored by the Adobe Foundation.
 </details>
 
-#### Coffee Break (2:20pm-2:35pm)
+#### Coffee Break (2:20pm-2:30pm)
 
-#### Control Block (2:35pm-3:55pm)
+#### Control Block (2:30pm-3:40pm)
 <details>
-  <summary> <b>2:35pm-3:15pm:</b> <i>Model Based Robust Deep Learning</i>, George Pappas (University of Pennsylvania) </summary>
+  <summary> <b>2:30pm-3:05pm:</b> <i>Model Based Robust Deep Learning</i>, George Pappas (University of Pennsylvania) </summary>
   <br>
   
   **Abstract:** While deep learning has resulted in major breakthroughs in many application domains, the frameworks commonly used in deep learning remain fragile to artificially-crafted and imperceptible changes in the data. In response to this fragility, adversarial training has emerged as a principled approach for enhancing the robustness of deep learning with respect to norm-bounded perturbations. However, there are other sources of fragility for deep learning that are arguably more common and less thoroughly studied. Indeed, natural variation such as lighting or weather conditions can significantly degrade the accuracy of trained neural networks, proving that such natural variation presents a significant challenge for deep learning.
@@ -63,7 +63,7 @@ We propose a paradigm shift from perturbation-based adversarial robustness towar
 </details>
   
 <details>
-  <summary> <b>3:15pm-3:55pm:</b> <i>On the Sample-Complexity of Stability Constrained Imitation Learning</i>, Nikolai Matni (University of Pennsylvania) </summary>
+  <summary> <b>3:05pm-3:40pm:</b> <i>On the Sample-Complexity of Stability Constrained Imitation Learning</i>, Nikolai Matni (University of Pennsylvania) </summary>
   <br>
   
   **Abstract:** We study the following question in the context of imitation learning for continuous control: how are the underlying stability properties of an expert policy reflected in the sample-complexity of an imitation learning task? We provide the first results showing that a surprisingly granular connection can be made between the underlying expert system's incremental gain stability, a novel measure of robust convergence between pairs of system trajectories, and the dependency on the task horizon *T* of the resulting generalization bounds. In particular, we propose and analyze incremental gain stability constrained versions of behavior cloning and a DAgger-like algorithm, and show that the resulting sample-complexity bounds naturally reflect the underlying stability properties of the expert system. As a special case, we delineate a class of systems for which the number of trajectories needed to achieve *ε*-suboptimality is sublinear in the task horizon *T*, and do so without requiring (strong) convexity of the loss function in the policy parameters. Finally, we conduct numerical experiments demonstrating the validity of our insights on both a simple nonlinear system for which the underlying stability properties can be easily tuned, and on a high-dimensional quadrupedal robotic simulation.
@@ -71,11 +71,11 @@ We propose a paradigm shift from perturbation-based adversarial robustness towar
   **Biography:** Nikolai Matni is an Assistant Professor in the Department of Electrical and Systems Engineering at the University of Pennsylvania, where he is also a member of the Department of Computer and Information Sciences (by courtesy), the GRASP Lab, the PRECISE Center, and the Applied Mathematics and Computational Science graduate group. Prior to joining Penn, Nikolai was a postdoctoral scholar in EECS at UC Berkeley. He has also held a position as a postdoctoral scholar in the Computing and Mathematical Sciences at Caltech. He received his Ph.D. in Control and Dynamical Systems from Caltech in June 2016. He also holds B.A.Sc. and M.A.Sc. in Electrical Engineering from the University of British Columbia, Vancouver, Canada. His research interests broadly encompass the use of learning, optimization, and control in the design and analysis of safety-critical data-driven autonomous systems.  Nikolai is a recipient of the NSF CAREER Award (2021), a Google Research Scholar Award (2021), the IEEE ACC 2017 Best Student Paper Award (as co-advisor), and the IEEE CDC 2013 Best Student Paper Award (first ever sole author winner).
 </details>
 
-#### Coffee Break (3:55pm-4:10pm)
+#### Coffee Break (3:40pm-3:50pm)
 
-#### Robotics Block (4:10pm-5:30pm)
+#### Robotics Block (3:50pm-5:00pm)
 <details>
-  <summary> <b>4:10pm-4:50pm:</b> <i>A Vision for Trustworthy Robot Perception: Certifiable Algorithms and Self-Supervised Learning</i>, Luca Carlone (Massachussetts Institue of Technology) </summary>
+  <summary> <b>3:50pm-4:25pm:</b> <i>A Vision for Trustworthy Robot Perception: Certifiable Algorithms and Self-Supervised Learning</i>, Luca Carlone (Massachussetts Institue of Technology) </summary>
   <br>
   
   **Abstract:** Perception algorithms are key components of modern autonomous systems, from self-driving vehicles to autonomous robots and drones. For instance, for a self-driving vehicle, perception algorithms provide functionalities such as estimating the state of the vehicle, building a map of obstacles in its surroundings, and detecting and tracking external objects and pedestrians. As exemplified by recent self-driving car accidents, perception failures can cascade to catastrophic system failures and compromise human safety. Ensuring robustness of perception is a formidable challenge, which spans several research areas from robotics and computer vision, to estimation and machine learning.
@@ -86,7 +86,7 @@ I conclude the talk by commenting on the use of robust algorithms for self-super
 </details>
 
 <details>
-  <summary> <b>4:50pm-5:30pm:</b> <i>Accelerating Policy Optimization using Contractively Stable Imitation Learning</i>, Sumeet Singh (Google Robotics) </summary>
+  <summary> <b>4:25pm-5:00pm:</b> <i>Accelerating Policy Optimization using Contractively Stable Imitation Learning</i>, Sumeet Singh (Google Robotics) </summary>
   <br>
   
   **Abstract:** Policies learned via Behavior Cloning (BC) methods typically result in catastrophic divergence from the expert demonstrations. An oft-cited explanation is that BC tries to learn the state-conditional action distribution, thereby neglecting the mismatch in the resulting closed-loop state distributions. On the other hand, recent methods advocating for stable or stabilizable dynamics learning within model-based reinforcement learning frameworks assume overly restrictive control theoretic properties for the underlying system. In this work, we instead assume that state trajectories corresponding to expert demonstrations can be encoded as a contractively stable dynamical system. Informally, this implies that state perturbations (``mistakes'') are exponentially forgotten with respect to the flow of the dynamical system. Leveraging this as the key thesis, we first fit a dynamical system to the collected demonstrations, where we leverage the properties of a contractively stable system as soft constraints within the learning algorithm. Next, we perform policy optimization using an off-the-shelf method (e.g., PPO, ARS) with an augmented cost function that penalizes deviation from the flow of the learned stable dynamical system. We demonstrate two key benefits: (i) more focused exploration and therefore, quicker policy convergence, and (ii) an adjustable handle over the distribution shift of the policy and the variance in its performance.
