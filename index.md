@@ -33,7 +33,7 @@ Times and dates will be confirmed once the workshop is officially scheduled.  It
 #### Machine Learning/Computer Vision Block (1:10pm-2:20pm)
 <details>
   <summary> <b>1:10pm-1:45pm:</b> 
-    <i>A Vision for Trustworthy Robot Perception: Certifiable Algorithms and Self-Supervised Learning</i>, Luca Carlone (Massachussetts Institue of Technology) </summary>
+    <i>A Vision for Trustworthy Robot Perception: Certifiable Algorithms and Self-Supervised Learning</i>, Luca Carlone (Massachusetts Institute of Technology) </summary>
   <br>
   
   **Abstract:** Perception algorithms are key components of modern autonomous systems, from self-driving vehicles to autonomous robots and drones. For instance, for a self-driving vehicle, perception algorithms provide functionalities such as estimating the state of the vehicle, building a map of obstacles in its surroundings, and detecting and tracking external objects and pedestrians. As exemplified by recent self-driving car accidents, perception failures can cascade to catastrophic system failures and compromise human safety. Ensuring robustness of perception is a formidable challenge, which spans several research areas from robotics and computer vision, to estimation and machine learning.
