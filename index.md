@@ -9,6 +9,9 @@ Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Pen
 - [IEEE CDC 2021 Workshops](https://2021.ieeecdc.org/workshops/)
 - [IEEE CDC 2021 Registration](https://2021.ieeecdc.org/registration/)
 
+## Post workshop update
+Thank you everyone for a successful and lively workshop! We will be uploading talks and slides here shortly after the conference, so please check back soon!
+
 ## Motivation and Objectives
 
 Deep neural networks (DNNs) are increasingly being used to model or approximate all components of traditional feedback control loops, including the plant, sensors, actuators, controllers, and in the case of “end-to-end” architectures, the entire feedback loop itself! The excitement surrounding these developments has been palpable, expanding the scope of control theoretic techniques to a much wider range of systems and scenarios, including perception-based control, agile robotics, and autonomous driving and racing. However, until recently, what has been lacking has been a principled theoretical foundation that also allows for strong guarantees of stability, robustness, and safety to be provided when such deep learning-enabled components are introduced into the feedback loop. Further, existing results in this area are relatively inaccessible to a typical first or second year graduate student in control theory, as they require both sophisticated mathematical tools not typically included in a control theorist’s training (e.g., high-dimensional statistics and learning theory), as well as a breadth of multi-disciplinary knowledge from not only control theory, but also machine learning, optimization, and computer vision.
