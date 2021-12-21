@@ -12,7 +12,7 @@ Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Pen
 ## Post workshop update
 Thank you everyone for a successful and lively workshop! We will be uploading talks and slides here shortly after the conference, so please check back soon!
 
-<iframe markdown="0" src="https://drive.google.com/file/d/1iQvjx-reAh5HpkHkjUi-a3Dqo1h2YW9F/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe markdown="0" src="https://drive.google.com/file/d/1iQvjx-reAh5HpkHkjUi-a3Dqo1h2YW9F/preview" width="640" height="480" allow="autoplay"> </iframe>
 
 ## Motivation and Objectives
 
