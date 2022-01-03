@@ -1,6 +1,5 @@
 ---
 layout: default
-driveId: 1iQvjx-reAh5HpkHkjUi-a3Dqo1h2YW9F/preview
 ---
 #### Organizers 
 Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Penn)\
@@ -14,8 +13,6 @@ Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Pen
 Thank you everyone for a successful and lively workshop! 
 
 **The workshop video and slides can be viewed/downloaded [here](https://drive.google.com/drive/folders/1NAWP8fAoztpvaIM3i66PjCpg5xG2hcjk?usp=sharing)**
-
-{% include googlePlayerDriver.html id=page.driveId %}
 
 ## Motivation and Objectives
 
