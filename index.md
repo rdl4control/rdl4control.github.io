@@ -10,8 +10,10 @@ Nikolai Matni (Penn), Christine Allen-Blanchette (Princeton), George Pappas (Pen
 - [IEEE CDC 2021 Workshops](https://2021.ieeecdc.org/workshops/)
 - [IEEE CDC 2021 Registration](https://2021.ieeecdc.org/registration/)
 
-## Post workshop update
-Thank you everyone for a successful and lively workshop! We will be uploading talks and slides here shortly after the conference, so please check back soon!
+## Post workshop update - workshop video and selected slides now available
+Thank you everyone for a successful and lively workshop! 
+
+**The workshop video and slides can be viewed/downloaded [here](https://drive.google.com/drive/folders/1NAWP8fAoztpvaIM3i66PjCpg5xG2hcjk?usp=sharing)**
 
 {% include googlePlayerDriver.html id=page.driveId %}
 
